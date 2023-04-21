@@ -85,7 +85,7 @@ def app():
     # Display the headline text
     st.header(headline_text)
 
-    st.title("Let's find your dream property for a vacations and investment")
+    st.title("Let's find your dream property for vacations and investment")
     st.write("Welcome and let's find your property")
 
     # Let the user select a flat type
