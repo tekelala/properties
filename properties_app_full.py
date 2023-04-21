@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Define the path or URL to the image file
-image_path = "/Users/tekelala/Library/CloudStorage/GoogleDrive-camilo@tekelala.com/Mi unidad/001. Camilo a partir de octubre 2018/Código/2023/Properties APP Full/livinghotels.png"
+image_path = "livinghotels.png"
 
 # Define the headline text
 headline_text = "Welcome to Properties by Colombian Living Hotels"
