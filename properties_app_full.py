@@ -87,6 +87,18 @@ def app():
 
     st.title("Let's find your dream property for vacations and investment")
     st.write("Welcome and let's find your property")
+    
+    # Collect user information
+    st.subheader("Please enter your information:")
+    user_name = st.text_input("Name:")
+    user_lastname = st.text_input("Last Name:")
+    user_email = st.text_input("Email:")
+    user_mobile = st.text_input("Mobile Phone Number:")
+    user_contact = st.text_input("Contact at Properties:")
+    
+    # If all required fields are filled, display a welcome message
+    if user_name and user_lastname and user_email and user_mobile and user_contact:
+        st.write(f"Welcome {user_name} {user_lastname}! Let's find your property.")
 
     # Let the user select a flat type
     flat_type = st.selectbox("Select a flat type:", list(FLAT_TYPES.keys()))
